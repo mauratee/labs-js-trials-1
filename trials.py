@@ -8,8 +8,16 @@ def output_all_items(items):
 print(output_all_items([1, 'hello', True]))
 
 def get_all_evens(nums):
-    pass  # TODO: replace this line with your code
+    evens=[]
+    for num in nums:
+        # print(num)
+        if num % 2 == 0:
+            # print(num)
+            evens.append(num)
+    return evens
 
+
+print(get_all_evens([7, 8, 10, 1, 2, 2]))
 
 def get_odd_indices(items):
     pass  # TODO: replace this line with your code
