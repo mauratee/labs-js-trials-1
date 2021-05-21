@@ -16,12 +16,19 @@ def get_all_evens(nums):
             evens.append(num)
     return evens
 
-
 print(get_all_evens([7, 8, 10, 1, 2, 2]))
 
-def get_odd_indices(items):
-    pass  # TODO: replace this line with your code
 
+def get_odd_indices(items):
+    odd_index = []
+    for item in items:
+        idx = items.index(item)
+        # print(idx)
+        if idx % 2 != 0:
+            odd_index.append(item)
+    return odd_index
+
+print(get_odd_indices([1, 'hello', True, 500]))
 
 def print_as_numbered_list(items):
     pass  # TODO: replace this line with your code
