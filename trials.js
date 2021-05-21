@@ -3,7 +3,7 @@
 // Print each item in the given array.
 //
 // Ex.:
-//   > outputAllItems([1, 'hello', true]);
+outputAllItems([1, 'hello', true]);
 //   1
 //   hello
 //   true
